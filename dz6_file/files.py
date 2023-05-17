@@ -4,3 +4,11 @@
 
 2. Выдать топ 5 самых встречаемы слов в Алисе длинна которых не меньше 5 букв.
  Так же можете собрать еще какую-то статистику (не обязательное задание на фантазию) """
+# path = 'Alice_in_Wonderland.txt'
+
+file = open('Alice_in_Wonderland.txt', 'r', encoding='UTF=8')
+
+data = file.read()
+print(data.__repr__())
+
+file.close()
